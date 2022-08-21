@@ -1,0 +1,53 @@
+const data = {
+  products: [
+    {
+      name: 'Tapis avec broderie traditinnelle',
+      slug: 'tapis avec broderie traditinnelle',
+      category: 'Tapis',
+      image: '/images/tapis.jpg', // 679px × 829px
+      price: 120,
+      countInStock: 10,
+      brand: 'Artisanat',
+      rating: 4.5,
+      numReviews: 10,
+      description: 'tapis artisanale de haute qualité ',
+    },
+    {
+      name: 'Théière',
+      slug: 'théière',
+      category: 'cuisine',
+      image: '/images/theiere.jpg',
+      price: 250,
+      countInStock: 20,
+      brand: 'Artisanat',
+      rating: 4.0,
+      numReviews: 10,
+      description: 'Produit artisanal de haute qualité ',
+    },
+    {
+      name: 'Sac chachia',
+      slug: 'sac chachia',
+      category: 'Accesoirs',
+      image: '/images/chachia.jpg',
+      price: 25,
+      countInStock: 15,
+      brand: 'Artisanat',
+      rating: 4.5,
+      numReviews: 14,
+      description: 'Produit artisanal de haute qualité',
+    },
+    {
+      name: 'Pochettes en calligraphie brodée',
+      slug: 'pochettes en calligraphie brodée',
+      category: 'Accesoirs',
+      image: '/images/pochette.jpg',
+      price: 65,
+      countInStock: 5,
+      brand: 'Artisanal',
+      rating: 4.5,
+      numReviews: 10,
+      description: 'Produit artisanal de haute qualité',
+    },
+  ],
+};
+export default data;

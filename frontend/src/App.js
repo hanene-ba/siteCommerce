@@ -1,15 +1,25 @@
+import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
+import HomeScreen from './screens/HomeScreen';
+import ProductScreen from './screens/ProductScreen';
+
 function App() {
   return (
-    <div>
-      <header>
-        <a href="/">Tunisian Crafts</a>
-      </header>
-      <div class="scrolling">
-        <h2>Apprendre l'automatisation des test By Faten</h2>
+    <BrowserRouter>
+      <div>
+        <header>
+          <Link to="/">amazona</Link>
+        </header>
+        <div class="scrolling">
+          <h2>Apprendre l'automatisation des test By Faten</h2>
+        </div>
+        <main>
+          <Routes>
+            <Route path="/product/:slug" element={<ProductScreen />} />
+            <Route path="/" element={<HomeScreen />} />
+          </Routes>
+        </main>
       </div>
-      <br />
-      <main>list products</main>
-    </div>
+    </BrowserRouter>
   );
 }
 
