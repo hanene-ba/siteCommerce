@@ -7,16 +7,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-header {
-  background-color: #404040;
-  padding: 1rem;
-}
-header a {
-  color: #f1c40f;
-  font-weight: bold;
-  text-decoration: none;
-}
-
 .scrolling {
   position: relative;
   width: 100%;
